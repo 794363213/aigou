@@ -1,0 +1,14 @@
+package cn.itsource.aigou;
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaApplication1111 {
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaApplication1111.class,args);
+    }
+}
